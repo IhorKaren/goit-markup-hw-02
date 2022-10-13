@@ -27,7 +27,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.20;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -54,7 +54,6 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-color);
-  
 }
 
 .auth-nav .link {
@@ -64,7 +63,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -107,17 +106,15 @@ body {
   cursor: pointer
 }
 
-/* Features & Gallery & Team*/
+/* Features & Gallery*/
 
-.section {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.70;
-}
 
 .section-title {
   color: var(--title-text-color);
 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -127,21 +124,40 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
-.section-list .title {
-  font-weight: 500;
+/* Team */
+
+.team {
+font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
 
+.team-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
 /* Footer */
+
+.footer {
+  background-color: #2F303A;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 .footer-logo {
   color: #ffffff;
   text-decoration: none;
 
   font-family: Raleway, sans-serif;
+  font-weight: 700;
 }
 
 .footer-logo span {
@@ -152,6 +168,17 @@ body {
   color: #ffffff;
 
   font-style: normal;
+}
+
+.footer-auth .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+}
+
+.footer-auth .link:hover,
+.footer-auth .link:focus {
+  color: var(--accent-color);
 }
 
 /* Portfolio main */
