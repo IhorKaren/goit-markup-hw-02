@@ -108,6 +108,11 @@ body {
 
 /* Features & Gallery*/
 
+.section {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -158,6 +163,8 @@ font-weight: 400;
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer-logo span {
@@ -183,8 +190,18 @@ font-weight: 400;
 
 /* Portfolio main */
 
+h1 {
+  background-color: tomato;
+}
+
 .buttons-list {
   list-style: none;
+  
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .content-list {
@@ -194,11 +211,16 @@ font-weight: 400;
 .content-list .title {
   color: var(--title-text-color);
 
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .content-list {
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* Buttons */
